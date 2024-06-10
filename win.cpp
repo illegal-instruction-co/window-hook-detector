@@ -7,7 +7,7 @@
 std::vector<std::wstring> trustedModules = {
     L"kernel32.dll",
     L"user32.dll",
-    // Güvenilir olarak kabul edilen diğer modülleri buraya ekleyin
+    // Add other trusted modules
 };
  
 bool IsModuleTrusted(const std::wstring& moduleName) {
